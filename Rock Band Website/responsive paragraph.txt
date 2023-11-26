@@ -1,0 +1,6 @@
+In order to make my website more responsive I used percentage values for my body text size and image width so that 
+they would scale no matter the size of my browser (also used ‘max-width’ to allow width and heigh to change 
+depending on the size of my browser). For the heading I used the ‘vw’ unit so that it would scale with the viewport 
+the user was on and stop the text from leaving the page. I used the 
+‘ <meta name="viewport"content="width=device-width,initial-scale=1.0">’ so that the width browswer would always fit 
+the width of the device.

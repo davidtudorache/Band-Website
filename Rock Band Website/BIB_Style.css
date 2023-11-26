@@ -1,0 +1,83 @@
+body {
+    /*colour of background + body text font setup*/
+    background-color: black;
+    font-size: 100%;
+    color: white;
+}
+
+h1 {
+    color: black;
+    /* font I got online because I thought it fit website astetic */
+    font-family: 'Squealer', sans-serif;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    /* align and sizing of font */
+    text-align: center;
+    /*sets size according to viewport*/
+    font-size: 10vw;
+    /* background image also from internet */
+    background-image: url(https://www.masqueradeatlanta.com/wp-content/uploads/2021/12/040922_beastinblack_ForSite.jpg);
+    height: 10%;    /* Height set to percentage makes website responsive */
+    /* setting position of background image */
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+ol { 
+    list-style-type: decimal-leading-zero;
+    display: inline-block; 
+    vertical-align: top;
+}
+
+#navigation ul{
+    width: 70%; /* Width set to percentage makes website responsive */
+    /*positions naviagtion bar in the center of website*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#navigation li {
+    display: inline; /*lines up navigation options side by side*/
+    /* puts space between the options*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {/* what anything with a link looks like when hovered over (navigation)*/ 
+    text-decoration: none;
+    font-family: 'Squealer', sans-serif;
+    font-size: larger;
+    color: white;
+}
+a:hover {/*what happens when the link is clicked*/
+    color: crimson;
+}
+.left img{
+    width: 20%;
+}
+
+.container {
+    /*puts both text and images in center*/
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+      /*defines width of images*/
+    max-width: 50%
+  }
+  .left {/*sets intial size of side*/
+    padding-right: 20px;
+    flex-basis: 60%;
+  }
+  
+  .right {/*sets intial size of side*/
+    flex-basis: 40%
+  }
